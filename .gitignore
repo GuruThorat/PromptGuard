@@ -11,3 +11,12 @@ data/*.npy
 detector/artifacts/
 
 # keep results/*.json committed so the metrics are visible in the repo
+
+# OS / editor / tooling cruft
+.DS_Store
+*.log
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/

@@ -220,3 +220,6 @@ Datasets: `deepset/prompt-injections`, `jackhhao/jailbreak-classification`,
 Background: NVIDIA garak; Microsoft PyRIT; PAIR (arXiv:2310.08419); GCG (arXiv:2307.15043);
 many-shot jailbreaking (Anthropic, 2024); indirect injection (Greshake et al., arXiv:2302.12173);
 low-resource jailbreak (arXiv:2310.02446); Constitutional Classifiers (Anthropic, arXiv:2501.18837).
+
+## License
+MIT — see [LICENSE](LICENSE).
