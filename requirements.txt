@@ -1,0 +1,21 @@
+# core (required) -- the project runs end-to-end with just these
+numpy
+pandas
+scikit-learn
+pyarrow
+datasets
+joblib
+fastapi
+uvicorn[standard]
+requests
+streamlit
+
+# preferred detector backend + extra model (heavier on ARM CPU; the trainer
+# auto-falls-back to a TF-IDF backend if these don't import)
+sentence-transformers
+lightgbm
+
+# optional red-team escalation / baselines (not needed to run the project)
+# garak
+# pyrit-ai
+# transformers   # only needed for the gated Meta Prompt-Guard-2 baseline

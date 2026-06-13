@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+install.log
+
+# generated data / model artifacts (regenerate with run_all.sh)
+data/*.parquet
+data/*.db
+data/*.npy
+detector/artifacts/
+
+# keep results/*.json committed so the metrics are visible in the repo
